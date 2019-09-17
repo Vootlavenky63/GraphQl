@@ -1,6 +1,13 @@
 // import { GraphQLServer } from 'graphql-yoga'
 // ... or using `require()`
 const { GraphQLServer } = require('graphql-yoga')
+var mongoose = require('mongoose');
+mongoose.connect('mongodb://localhost/TodoGraphQL', {useNewUrlParser: true,useUnifiedTopology: true},() => {
+    console.log("mongodb running");
+    
+}
+);
+
 
 const typeDefs = `
   type Query {
