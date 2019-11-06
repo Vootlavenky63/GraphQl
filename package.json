@@ -19,6 +19,6 @@
   "homepage": "https://github.com/Vootlavenky63/GraphQl#readme",
   "dependencies": {
     "graphql-yoga": "^1.18.3",
-    "mongoose": "^5.7.1"
+    "mongoose": "^5.7.5"
   }
 }
